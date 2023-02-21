@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    height: 100vw;
+}
+
+.İTA{font-style: italic;}
+.BOLD{font-style: bold;}
+.RED{color: rgb(124, 34, 1);}
+.BG{background-color: rgb(124, 34, 1);}
+.WHT{color: #fff;}
+
+#special{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main{
+    margin-left: 30px;
+
+}
+
+h3{
+    display: flex;
+    width: fit-content;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* one stage */
+a{
+    color: black; 
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+}
+
+#one{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+
+
+/* two stage */
+#two{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#two > ol,
+#two > ul{
+    margin-left: 50px;
+}
+
+#two > ol{
+    margin-bottom: 20px;
+}
+
+/* three stage */
+#three > h4{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    
+}
